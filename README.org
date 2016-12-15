@@ -1,0 +1,14 @@
+* Objectoplasm, an Object System Distribution written in Python 3
+** DESIGN GOALS
+ - A somewhat *simple* server implementation of a sane *subset* of the spec.
+ - Server code should be *readable* in one go and be *contained in one file*.
+ - Less classes and more functions. I.e. *function-driven* implementation
+   rather than class-driven like in Objectoplex.
+ - Utilizing ~asyncio~ natively. Probably with the help of the ~ohneio~
+   library.
+ - Library to implement Object System services in and a sample echo service.
+** HOW TO HACK
+ - ~virtualenv --python=python3~
+ - ~source env/bin/activate~
+ - ~pip install -r requirements.txt~
+ - Happy hacking!
